@@ -5,6 +5,9 @@ Wrapper around gcloud to list db resources in the GCP env.
 ## gcp-dblist.py
 
 ### Usage:
+If you run `gcp-dblist` by itself you will get a full list of GCE, Load balancers, DNS, CloudSQL resourses for the project.
+
+or you can be more specific. 
 
 ```
  gcp-dblist -h
@@ -87,4 +90,4 @@ https://www.googleapis.com/compute/v1/projects/blue-test-hab7/global/snapshots/t
  Run: (epoch_con <uri_epoch_time>) to convert the URI epoch date to verify it's within the hour
 ```
 
-If you run gcp-dblist by itself you will get a full list of GCE, Load balancers, DNS, CloudSQL resourses for the projectt.
+
